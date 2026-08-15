@@ -1,0 +1,92 @@
+{
+    "target": "ProdTaken",
+    "features": [
+        "Age",
+        "CityTier",
+        "Occupation",
+        "Gender",
+        "NumberOfPersonVisiting",
+        "PreferredPropertyStar",
+        "MaritalStatus",
+        "NumberOfTrips",
+        "Passport",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "Designation",
+        "MonthlyIncome"
+    ],
+    "numerical_features": [
+        "Age",
+        "CityTier",
+        "NumberOfPersonVisiting",
+        "PreferredPropertyStar",
+        "NumberOfTrips",
+        "Passport",
+        "OwnCar",
+        "NumberOfChildrenVisiting",
+        "MonthlyIncome"
+    ],
+    "categorical_features": [
+        "Occupation",
+        "Gender",
+        "MaritalStatus",
+        "Designation"
+    ],
+    "numerical_defaults": {
+        "Age": 36.0,
+        "CityTier": 1.0,
+        "NumberOfPersonVisiting": 3.0,
+        "PreferredPropertyStar": 3.0,
+        "NumberOfTrips": 3.0,
+        "Passport": 0.0,
+        "OwnCar": 1.0,
+        "NumberOfChildrenVisiting": 1.0,
+        "MonthlyIncome": 22403.0
+    },
+    "numerical_minimums": {
+        "Age": 18.0,
+        "CityTier": 1.0,
+        "NumberOfPersonVisiting": 1.0,
+        "PreferredPropertyStar": 3.0,
+        "NumberOfTrips": 1.0,
+        "Passport": 0.0,
+        "OwnCar": 0.0,
+        "NumberOfChildrenVisiting": 0.0,
+        "MonthlyIncome": 1000.0
+    },
+    "numerical_maximums": {
+        "Age": 61.0,
+        "CityTier": 3.0,
+        "NumberOfPersonVisiting": 5.0,
+        "PreferredPropertyStar": 5.0,
+        "NumberOfTrips": 21.0,
+        "Passport": 1.0,
+        "OwnCar": 1.0,
+        "NumberOfChildrenVisiting": 3.0,
+        "MonthlyIncome": 98678.0
+    },
+    "categorical_values": {
+        "Occupation": [
+            "Freelancer",
+            "Large Business",
+            "Salaried",
+            "Small Business"
+        ],
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "MaritalStatus": [
+            "Divorced",
+            "Married",
+            "Single"
+        ],
+        "Designation": [
+            "AVP",
+            "Executive",
+            "Manager",
+            "Senior Manager",
+            "VP"
+        ]
+    }
+}
